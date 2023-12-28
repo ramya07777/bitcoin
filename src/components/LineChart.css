@@ -1,0 +1,148 @@
+.line {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  background-color:  rgba(28, 28, 28, 0.3);
+  height: fit-content;
+border-radius: 2rem;
+padding: 2rem;
+
+}
+.line__head{
+line-height: 2.8rem;
+}
+.line__button {
+    border: none;
+    background-color: #1C1C1C;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+      }
+      .line__header{
+        flex: 1;
+      }
+    .line__button:hover{
+        background-image: linear-gradient(to right, #b102ce, #9604c1, #7b04b3, #6004a4, #440495);
+     }
+      .line__head {
+        flex: 1;
+       }
+       .graph {
+        gap: 10rem;
+        text-align: center;
+     
+    }
+    .icon__linegraph {
+      max-width: 24px; /* Adjust as needed */
+      max-height: 24px; /* Adjust as needed */
+      display: block; /* Ensures the image is treated as a block element */
+      margin-right: 8px; /* Adjust spacing as needed */
+    }
+ .time-period-buttons{
+  display: flex;
+  gap: 1rem;
+ }
+    .line__butt {
+      border: none;
+      background-color: #1C1C1C;
+      font-size: 1.5rem;
+      color: white;
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+    .line__butt:hover {
+      background-image: linear-gradient(to right, #b102ce, #9604c1, #7b04b3, #6004a4, #440495);
+    }
+    .recharts-surface{
+      margin-left: -2rem;
+    }
+
+    @media (max-width: 64em) {
+      .line__top {
+        padding: 2rem;
+        width: 100%;
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     flex-wrap: wrap;
+     
+      }
+      .line {
+
+margin-right: 0rem !important;
+      }
+    }
+
+    @media (max-width: 44em) {
+      .time-period-buttons{
+      gap: 0.5rem;
+      }
+      .line__header{
+margin-left: 0rem !important;
+      }
+      .line__top {
+      margin-top: 2rem;
+          }
+      .line__butt {
+        font-size: 1rem;
+      }
+      .line__button {
+        font-size: 1rem;
+      }
+      .line__head{
+     font-size: 1.6rem;
+      }
+      .graph{
+        margin-top: 1rem !important;
+        margin-bottom: 0rem !important;
+        gap: 1rem;
+      }
+    }
+
+    @media (max-width: 35em) {
+      .time-period-buttons{
+flex-wrap: wrap;
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+      }
+      .line__button {
+font-size: 1.3rem;
+      }
+   
+     
+      .line {
+      padding: 1rem;
+      }
+    }
+
+    @media (max-width: 32em) {
+           .line__head{
+        font-size: 1.4rem;
+      }
+
+      .line{
+        width: 98%;
+      }
+    }
+
+
+    @media (max-width: 25em) {
+      .time-period-buttons{
+                grid-template-columns: 1fr 1fr 1fr;
+      }
+      .line__chart {
+margin: 1rem !important;
+      }
+      .line__head{
+        font-size: 1rem;
+      }
+      .line__button {
+        font-size: 1rem;
+              }
+           
+    }
+   
